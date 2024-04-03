@@ -17,7 +17,7 @@ dataset:
   edge_encoder_name: VOCEdge
   edge_encoder_bn: False
 posenc_LapPE:
-  enable: False
+  enable: True
   eigen:
     laplacian_norm: none
     eigvec_norm: L2
